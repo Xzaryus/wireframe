@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #f6c526;
+    --secondary-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid black;
+    border-radius: 1rem;
+    padding: 5rem;
+}
