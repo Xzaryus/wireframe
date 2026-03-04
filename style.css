@@ -61,17 +61,28 @@ table {
     gap: 10rem;
     margin-top: 2rem;
     padding: 0.5rem;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .btn{
     background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    text-decoration: none;
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem;
     cursor: pointer;
 }
 
-.btnTxt{
-    text-decoration: none;
+.agentBtn{
+    background-color: var(--primary-color);
     color: var(--tertiary-color);
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 20%;
+    height: 3rem;
 }
