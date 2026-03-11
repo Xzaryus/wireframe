@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: #00000017;
     margin: 1%;
 }
 
@@ -40,6 +40,7 @@ body {
     border: solid var(--tertiary-color);
     border-radius: 1rem;
     padding: 5rem;
+    background-color: var(--secondary-color);
 }
 
 .formGroup{
