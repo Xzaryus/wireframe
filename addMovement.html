@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Add Movement</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="title">Add Movement</h1>
+        <div class="container">
+            <form class="forms">
+                <div class="formGroup">
+                    <label for="agentNum">Agent Number:</label>
+                    <input type="text" id="agentNum" name="agentNum" required value="(autofilled)"/>
+                </div>
+                <div class="formGroup">
+                    <label for="fromCons">Consort moved from:</label>
+                    <select name="fromCons" id="fromCons" required>
+                        <option value="">Select a consort</option>
+                        <option value="consort1">Consort A</option>
+                        <option value="consort2">Consort B</option>
+                        <option value="consort3">Consort C</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <label for="leaveDate">Date left:</label>
+                    <input type="date" id="leaveDate" name="leaveDate" required />
+                </div>
+                <div class="formGroup">
+                    <label for="toCons">Consort moved to:</label>
+                    <select name="toCons" id="toCons" required>
+                        <option value="">Select a consort</option>
+                        <option value="consort1">Consort A</option>
+                        <option value="consort2">Consort B</option>
+                        <option value="consort3">Consort C</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <label for="joinDate">Date Joined:</label>
+                    <input type="date" id="joinDate" name="joinDate" required />
+                </div>
+                <div class="buttons">
+                    <a href="/agentInfo.html" class="agentBtn">Back</a>
+                    <a href="/confirm.html" class="agentBtn">Confirm</a>
+                </div>
+            </form>
+        </div>
